@@ -20,3 +20,7 @@ management.metrics.export:
     step: PT10S
     readTimeout: PT30S
     batchSize: 20000
+    uri: "http://localhost:9999"
+    org: "my-org"
+    bucket: "my-bucket"
+    token: "my-token"
